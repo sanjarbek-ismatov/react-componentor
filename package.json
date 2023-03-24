@@ -1,0 +1,12 @@
+{
+  "name": "reactular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cr-page": "./bin/page/index.js",
+    "cr-comp": "./bin/component/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
