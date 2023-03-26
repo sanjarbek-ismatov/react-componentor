@@ -1,6 +1,6 @@
-# reactular
+# React Componentor
 
-Reactular - creates components for react. Support typescript. Currently version supports only component but adding next js page support
+React Componentor - creates components for react. Support typescript. Currently version supports only component but adding next js page support
 
 # USAGE
 

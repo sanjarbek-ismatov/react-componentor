@@ -1,20 +1,31 @@
 {
-  "name": "reactular",
+  "name": "react-componentor",
   "version": "1.0.0",
   "description": "Create react components easy",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sanjarbek-ismatov/reactular.git"
+    "url": "git+https://github.com/sanjarbek-ismatov/react-componentor.git"
   },
   "bin": {
     "cr-page": "./bin/page/index.js",
     "cr-comp": "./bin/component/index.js"
   },
-  "keywords": ["react", "reactular", "components", "create", "jsx", "tsx"],
+  "keywords": [
+    "react",
+    "reactular",
+    "components",
+    "create",
+    "jsx",
+    "tsx"
+  ],
   "author": "Sanjarbek",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sanjarbek-ismatov/reactular/issues"
+    "url": "https://github.com/sanjarbek-ismatov/react-componentor/issues"
   },
-  "homepage": "https://github.com/sanjarbek-ismatov/reactular#readme"
+  "homepage": "https://github.com/sanjarbek-ismatov/reactular#readme",
+  "dependencies": {
+    "reactular": "^0.1.2"
+  }
 }
