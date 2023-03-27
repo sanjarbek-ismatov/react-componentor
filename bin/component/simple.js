@@ -14,7 +14,7 @@ module.exports = (name, extension) => {
   fs.mkdirSync(name);
   process.chdir(name);
   fs.writeFileSync(
-    `${name}.${extension}`,
+    `index.${extension}`,
     `import './${name}.css'
 function ${name}() {
   return (
@@ -24,10 +24,6 @@ function ${name}() {
   );
 }
 export default ${name};`.trim()
-  );
-  fs.writeFileSync(
-    `index.${fixedExtenstion}`,
-    `export * as default from "./${name}"`
   );
   fs.writeFileSync(`${name}.css`, "");
   process.chdir("../");
